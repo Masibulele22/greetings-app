@@ -1,5 +1,6 @@
 module.exports = function greetBack(nameList) {
 
+    console.log(nameList + "This list")
     var names = nameList || {};
     var userCount = 0;
 
@@ -13,15 +14,15 @@ module.exports = function greetBack(nameList) {
         }
 
         if (language === "isiXhosa") {
-            return "Molo " + capsNames+ ".";
+            return "Molo " + capsNames;
         }
 
         else if (language === "English") {
-            return "Hello " + capsNames+ ".";
+            return "Hello " + capsNames;
         }
 
         else if (language === "Afrikaans") {
-            return "Goeie Dag " + capsNames+ ".";
+            return "Goeie Dag " + capsNames;
         }
 
     }
