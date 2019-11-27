@@ -1,6 +1,5 @@
 module.exports = function greetBack(nameList) {
 
-    console.log(nameList + "This list")
     var names = nameList || {};
     var userCount = 0;
 
